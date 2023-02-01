@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: white;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    width: 1650px;
+
+
+}
+
+.section-padding{
+    padding: 100px 0;
+}
+
+
+.c-item{
+    
+height: 874px;
+min-height: 784px;;
+
+background: #777777;
+
+}
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter:brightness(0.5);
+    
+}
+
+.carousel-caption{
+    z-index:2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+.table {
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 30px;
+    opacity: 50%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: start;
+    border-radius: 30px;
+}
+th {
+    padding: 5px;
+    padding-left: 10px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    text-align: start;
+}
+td {
+    border-right: 1px solid black;
+    padding: 5px;
+    padding-left: 10px;
+
+}
+
+.singleCol{
+    max-width: 1650px;
+    margin: 0 auto;
+}
+
+.accordion-button{
+    font-size: inherit;
+}
+
+.accordion-item{
+    border: 1px solid rgba(35,65,100,.15);
+}
+
+.accordion-button:not(.collapsed){
+    color: inherit;
+    background: rgba(35,65,100);
+    color: white;
+}
+
+.accordion-button:not(.collapsed)::after{
+    filter: brightness(0%) invert(70%);
+}
+
+.accordion-button:focus{
+    box-shadow: inherit;
+}
+
+@media (max-width: 1650px){
+    .accordion-button h2{
+        font-size: calc(.95rem+1.5vw);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
